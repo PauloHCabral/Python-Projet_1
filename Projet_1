@@ -1,0 +1,17 @@
+print('Informe seu nome:')
+nome = input()
+print('Quantos anos você tem ?')
+idade = int(input())
+print('Em que cidade você nasceu ?')
+cidade = input()
+print('Qual é o seu endereço ?')
+endereço = input()
+print(f'O senhor(a) tem {idade} anos, nasceu em {2022 - idade}, nasceu na cidade de {cidade}, seu endereço é {endereço}')
+
+if idade >18:
+    print(f'{nome} o senhor(a) é maior de idade')
+elif idade ==18:
+    print(f'{nome} o senhor(a) tem 18 anos')
+else:
+    print(f'{nome} o senhor(a) é menor de 18 anos, precisa de um responsável')
+
